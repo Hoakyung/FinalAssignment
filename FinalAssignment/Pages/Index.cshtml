@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1 class="display-4">My Favorite Song</h1>
+<p>I hope you enjoy listening!</p>
+
+<div class="video-frame" id="videoContainer">
+    <iframe id="myVideo" width="560" height="315"
+            src="https://www.youtube.com/embed/WMweEpGlu_U"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullgreen>
+    </iframe>
+</div>
+<script src="~/js/site.js"></script>
